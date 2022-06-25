@@ -6,7 +6,7 @@ else
     if [ -f "${PASSED}" ]; then
         echo "${PASSED} is a file";
     else
-        echo "${PASSED} is not valid";
+        echo "${PASSED} is invalid";
         exit 1
     fi
 fi
